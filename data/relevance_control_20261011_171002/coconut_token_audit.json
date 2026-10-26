@@ -1,0 +1,3218 @@
+{
+  "summary": {
+    "model": "coconut",
+    "dataset": "/mnt/home/user16/nihad/coconut/mentor_experiment/relevance_control_20261011_171002/diagnostic.json",
+    "dataset_sha256": "46a4dcc6c9f1471126a3c332fe5edf114756601678d881c7cd672276aa9f5042",
+    "records": 400,
+    "comparisons": 160,
+    "matched_comparisons": 160,
+    "all_matched": true,
+    "expected_changed_tokens": {
+      "path": 2,
+      "endpoint": 1
+    },
+    "format": "Same tokenizer and prompt construction as uploaded original tracing script"
+  },
+  "comparisons": [
+    {
+      "base_id": "relevance_0000",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0000",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0000",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0000",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0001",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0001",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0001",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0001",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0002",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0002",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0002",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0002",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0003",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0003",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0003",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0003",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0004",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0004",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0004",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0004",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0005",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0005",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0005",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0005",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0006",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0006",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0006",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0006",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0007",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0007",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0007",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0007",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0008",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0008",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0008",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0008",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0009",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0009",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0009",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0009",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0010",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0010",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0010",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0010",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0011",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0011",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0011",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0011",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0012",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0012",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0012",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0012",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0013",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0013",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0013",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0013",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0014",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0014",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0014",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0014",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0015",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0015",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0015",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0015",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0016",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0016",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0016",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0016",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0017",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0017",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0017",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0017",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0018",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0018",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0018",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0018",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0019",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0019",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0019",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0019",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0020",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0020",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0020",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0020",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0021",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0021",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0021",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0021",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0022",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0022",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0022",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0022",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0023",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0023",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0023",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0023",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0024",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0024",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0024",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0024",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0025",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0025",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0025",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0025",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0026",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0026",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0026",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0026",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0027",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0027",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0027",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0027",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0028",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0028",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0028",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0028",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0029",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0029",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0029",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0029",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0030",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0030",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0030",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0030",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0031",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0031",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0031",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0031",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0032",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0032",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0032",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0032",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0033",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0033",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0033",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0033",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0034",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0034",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0034",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0034",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0035",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0035",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0035",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0035",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0036",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0036",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0036",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0036",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0037",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0037",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0037",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0037",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0038",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0038",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0038",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0038",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0039",
+      "query_index": 0,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0039",
+      "query_index": 0,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0039",
+      "query_index": 1,
+      "edit_type": "path",
+      "passed": true,
+      "details": [
+        {
+          "condition": "path_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        },
+        {
+          "condition": "path_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 2
+        }
+      ]
+    },
+    {
+      "base_id": "relevance_0039",
+      "query_index": 1,
+      "edit_type": "endpoint",
+      "passed": true,
+      "details": [
+        {
+          "condition": "endpoint_chain_0",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        },
+        {
+          "condition": "endpoint_chain_1",
+          "length": 46,
+          "same_length": true,
+          "changed_token_count": 1
+        }
+      ]
+    }
+  ]
+}

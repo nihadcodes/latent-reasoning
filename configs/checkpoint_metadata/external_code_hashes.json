@@ -1,0 +1,30 @@
+[
+  {
+    "external_model_folder": "huginn_0125_torch24_compat",
+    "filename": "raven_modeling_minimal.py",
+    "sha256": "488814512db3a1ab64fd2edf5aa6e4f753bb95cc21a2c973c3d5dd4e3adb6cbf",
+    "redistributed": false,
+    "reason": "Model-code licence not supplied with archive"
+  },
+  {
+    "external_model_folder": "huginn_0125_torch24_compat",
+    "filename": "raven_config_minimal.py",
+    "sha256": "36a39939e76dc9e8f7563187c6498e012ca7f64a3d86b32ff1daa7f4c41a4278",
+    "redistributed": false,
+    "reason": "Model-code licence not supplied with archive"
+  },
+  {
+    "external_model_folder": "ouro_1_4b",
+    "filename": "modeling_ouro.py",
+    "sha256": "c5c68fbb368ce2909c257ae2afc50719be8c91539333d3295e19312c4316f413",
+    "redistributed": false,
+    "reason": "Model-code licence not supplied with archive"
+  },
+  {
+    "external_model_folder": "ouro_1_4b",
+    "filename": "configuration_ouro.py",
+    "sha256": "950443e32929047aa08d02abad2e1888bc1914b3db988d3d675f70787f65dafb",
+    "redistributed": false,
+    "reason": "Model-code licence not supplied with archive"
+  }
+]

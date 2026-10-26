@@ -1,0 +1,28 @@
+{
+  "checkpoint": "/mnt/home/user16/nihad/reasoning_by_superposition_review/artifacts/coconut_theory/checkpoint_300",
+  "strict_loading": true,
+  "missing_keys": 0,
+  "unexpected_keys": 0,
+  "dataset_records": 419,
+  "examples_checked": 1,
+  "graph_labels_verified": true,
+  "layers": 2,
+  "attention_heads": 8,
+  "input_tokens": 171,
+  "latent_steps": 4,
+  "latent_tensor_shape": [
+    4,
+    768
+  ],
+  "maximum_feedback_error": 0.0,
+  "latent_l2_norms": [
+    27.882465362548828,
+    27.991069793701172,
+    28.01272964477539,
+    28.017181396484375
+  ],
+  "precision": "torch.float32",
+  "gpu": "NVIDIA L20",
+  "answer_accuracy_evaluated": false,
+  "passed": true
+}

@@ -1,0 +1,44 @@
+{
+  "model": "Original SIM-CoT GPT2 Coconut",
+  "checkpoint": "/mnt/home/user16/nihad/simcot_gpt2_coconut/checkpoint_28",
+  "revision": "676c8a8aeb4afcef3a4fb98da9d539588d969340",
+  "checkpoint_sha256": "99b3f9183ea2c4eec61b3fe324ac583f6b7e9e97700c15fc0d37b628120b90b4",
+  "checkpoint_variant": "released SIM-CoT weights; no synthetic adaptation",
+  "checkpoint_loaded_strictly": true,
+  "missing_keys": 0,
+  "unexpected_keys": 0,
+  "base_groups": 2,
+  "records": 20,
+  "base_ids": [
+    "relevance_0000",
+    "relevance_0001"
+  ],
+  "dataset_sha256": "46a4dcc6c9f1471126a3c332fe5edf114756601678d881c7cd672276aa9f5042",
+  "latent_steps": 10,
+  "transformer_blocks": 12,
+  "raw_block_tensor_shape": [
+    10,
+    12,
+    768
+  ],
+  "maximum_feedback_error": 0.0,
+  "maximum_final_state_error": 0.0,
+  "instrumentation_error": 0.0,
+  "instrumentation_check_records": 1,
+  "precision": "torch.float32",
+  "torch_version": "2.4.1+cu121",
+  "transformers_version": "4.46.2",
+  "attention_backend": "eager",
+  "correctness_filter": false,
+  "answer_generation": false,
+  "auxiliary_decoder": "Strictly loaded; not called for explanation generation or auxiliary loss",
+  "state_definition": "Raw GPT-2 block outputs at each injection source; final normalized injected vectors stored separately",
+  "slot_setting_source": "Uploaded eval YAML: 2 tokens per stage, 5 maximum stages; checkpoint-specific training metadata unverified",
+  "wrapper_sha256": "5843656e7feaa03c5f1ec8a6ba843ac220565844394b12cc9df36faa50c64c01",
+  "eval_yaml_sha256": "441862539ff1e826bd5ba37498e7ae01894205f454c7ff5b207392c5c877ae5e",
+  "script_sha256": "2270aa859f42b19a7edcc2babfcc0a7a3d56d77f0298b7e364d781fafe4526e6",
+  "limitations": [
+    "Different original training histories; not an architecture-only or matched-compute experiment.",
+    "Dataset is a controlled synthetic diagnostic, outside the checkpoint arithmetic training domain."
+  ]
+}

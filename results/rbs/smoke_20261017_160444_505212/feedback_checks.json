@@ -1,0 +1,22 @@
+[
+  {
+    "step": 1,
+    "next_pass_error": 0.0,
+    "assembled_error": 0.0
+  },
+  {
+    "step": 2,
+    "next_pass_error": 0.0,
+    "assembled_error": 0.0
+  },
+  {
+    "step": 3,
+    "next_pass_error": 0.0,
+    "assembled_error": 0.0
+  },
+  {
+    "step": 4,
+    "next_pass_error": 0.0,
+    "assembled_error": 0.0
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "model": "Original Huginn",
+  "model_directory": "/mnt/home/user16/nihad/huginn_0125_torch24_compat",
+  "checkpoint_variant": "original downloaded weights; no adaptation",
+  "base_groups": 2,
+  "records": 20,
+  "recurrent_iterations": 32,
+  "iteration_tensor_shape": [
+    32,
+    5280
+  ],
+  "maximum_recurrent_boundary_error": 0.0,
+  "maximum_final_normalization_error": 0.0,
+  "instrumentation_check": {
+    "maximum_logit_error": 0.0,
+    "maximum_latent_error": 0.0
+  },
+  "correctness_filter": false,
+  "answer_generation": false,
+  "base_ids": [
+    "relevance_0000",
+    "relevance_0001"
+  ],
+  "dataset_sha256": "46a4dcc6c9f1471126a3c332fe5edf114756601678d881c7cd672276aa9f5042",
+  "precision": "bfloat16",
+  "state_definition": "Raw state after each recurrent core iteration, at the final native-chat-prompt position.",
+  "initialization_control": "Native initializer; shared positional template within each base group, with final prompt anchor aligned."
+}

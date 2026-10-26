@@ -1,0 +1,44 @@
+{
+  "experiment": "RQ2 common-update execution and learning feasibility v1",
+  "mode": "smoke",
+  "arguments": {
+    "mode": "smoke",
+    "model_dir": "../gpt2_model",
+    "output_root": "rq2_workspace_feasibility",
+    "steps": 2,
+    "seed": 2026,
+    "train_groups": 16,
+    "dev_groups": 64,
+    "updates": 300,
+    "batch_size": 4,
+    "eval_every": 25,
+    "lr": 5e-05,
+    "save_weights": false
+  },
+  "torch": "2.4.1+cu121",
+  "transformers": "4.46.2",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "gpu": "NVIDIA L20",
+  "precision": "FP32 parameters, gradients and AdamW moments; TF32 disabled",
+  "initial_state_sha256": "fa5ddf12a6a72193b8aad54bbb958d225f607d17ea2c500b6738d505b36f0712",
+  "parameter_count": 124439808,
+  "backbone_layers": 12,
+  "attention": "eager causal GPT-2",
+  "dropout": 0.0,
+  "cache": false,
+  "answer_metric": "Exact answer-token accuracy over full vocabulary; answer not in input suffix",
+  "workspace_initialization": "One EOS embedding, identical deterministic rule for all strategies",
+  "positions": "Contiguous position IDs for every full pass; GPT-2 adds absolute position embeddings",
+  "data_sha256": {
+    "train.json": "549f4dae461337d88c65324857d6571a6ba38dd986cb8155d0e43759ba136efd",
+    "development.json": "197539103b2b081970d21bf51efcc978828d4bdc061247c3a2acf0574a3a129c"
+  },
+  "limitations": [
+    "Custom GPT-2 workspace baselines, not original model reproductions.",
+    "Update counts are not matched FLOPs; no RQ2 performance conclusion.",
+    "Two-chain task tests learning of a narrow family; graph topologies are isomorphic.",
+    "Development graphs exclude identical labelled edge sets, not isomorphic structures.",
+    "Final readout also sees input context; learned use of latents requires later ablation.",
+    "One training seed; inference initialization is deterministic."
+  ]
+}

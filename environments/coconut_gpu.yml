@@ -1,0 +1,11 @@
+name: latent-study-primary
+channels: [defaults]
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.4.1
+      - transformers==4.46.2
+      - numpy==1.26.4
+      - huggingface-hub==0.36.2
+      - matplotlib

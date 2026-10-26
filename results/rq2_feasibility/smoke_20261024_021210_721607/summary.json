@@ -1,0 +1,50 @@
+{
+  "DIRECT": {
+    "execution_passed": true,
+    "initial_train": {
+      "loss": 6.1942882388830185,
+      "correct": 0,
+      "records": 32,
+      "accuracy": 0.0,
+      "pairs": 16,
+      "both_queries_correct": 0,
+      "same_prediction_pairs": 16,
+      "prediction_counts": {
+        "\n": 32
+      }
+    },
+    "training_performed": false
+  },
+  "EXPAND": {
+    "execution_passed": true,
+    "initial_train": {
+      "loss": 5.646213963627815,
+      "correct": 0,
+      "records": 32,
+      "accuracy": 0.0,
+      "pairs": 16,
+      "both_queries_correct": 0,
+      "same_prediction_pairs": 16,
+      "prediction_counts": {
+        "\n": 32
+      }
+    },
+    "training_performed": false
+  },
+  "REFINE": {
+    "execution_passed": true,
+    "initial_train": {
+      "loss": 5.723576575517654,
+      "correct": 0,
+      "records": 32,
+      "accuracy": 0.0,
+      "pairs": 16,
+      "both_queries_correct": 0,
+      "same_prediction_pairs": 16,
+      "prediction_counts": {
+        "\n": 32
+      }
+    },
+    "training_performed": false
+  }
+}

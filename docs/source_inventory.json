@@ -1,0 +1,442 @@
+[
+  {
+    "source": "build_repo.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "rbs_review/stokenizer.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "rbs_review/coconut.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "rbs_review/run_rbs_node_readout.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "rbs_review/run_rbs_order_controls.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "nihad_scripts/trace_ouro_relevance_control.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "nihad_scripts/trace_simcot_relevance_control.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "nihad_scripts/trace_original_simcot.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "nihad_scripts/trace_original_ouro.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment_old.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/latent_inference_gsm_success_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/audit_rq2_existing_baselines.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/trace_coconut_relevance_control.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/trace_original_huginn_iterations.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/generate_S2.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_trained_E6_E8.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_rq2_workspace_feasibility_v1.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/generate_S3.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment_before_metrics.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/simple_inference.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/coconut_before_shape_debug.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_logical_geometry.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_controlled_pilot_v3.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_4latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/coconut_validated_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_step6.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_mentor_coconut_synthetic.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/pilot_mentor_coconut.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_coconut_depth_4.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_full_gpt2_baseline_v3.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_latents_logical.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/latent_inference.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/latent_inference_gsm_success.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_full_gpt2_baseline.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_e10_pareto_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/extract_logical_latents.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_100_4latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_2latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_evaluation.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_e1_vanilla.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_controlled_pilot.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_mentor_coconut_validation.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment_with_baseline_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/check_query_control.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_evaluation_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/trace_huginn_relevance_seeds.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_matched_s2.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_shared_core_original.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_100_6latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/trace_huginn_relevance_control.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/trace_mentor_coconut_layers.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/coconut_model_reference_snapshot.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/logical_controlled_analysis.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_logical_condition_sensitivity.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_E6_E8_shared_core.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_step1.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/test_load.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/diagnose_rq2_workspace_v1.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_shared_core.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/recurrent_refine.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_coconut_budget.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_logical_step_probs.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_100_8latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/run_e10_pareto.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_eval_100_2latent.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment_10_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_matched_logical.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/verify_results.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_coconut_validation.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/analyze_original_model_states.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/generate_logical_controlled.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/audit_control_tokens.py",
+    "selected": true,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/verify_coconut_feedback.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_step4.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_matched_logical.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/generate_synthetic.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_matched_s2_v1_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_matched_s2.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/batch_gsm_experiment_50_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/train_matched_s2_v2_backup.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/recurrent_refine_old_prototype.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_matched_s2_clean.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/refine_paper_inspired.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_mentor_coconut_test.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/coconut_internal_analysis.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "mentor_experiment/evaluate_coconut_depth_3.py",
+    "selected": false,
+    "status": "syntax passed"
+  },
+  {
+    "source": "coconut_reference/coconut.py",
+    "selected": true,
+    "status": "syntax passed"
+  }
+]

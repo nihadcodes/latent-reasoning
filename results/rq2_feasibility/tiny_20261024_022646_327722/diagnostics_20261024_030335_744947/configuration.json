@@ -1,0 +1,44 @@
+{
+  "source_run": "/mnt/home/user16/nihad/coconut/mentor_experiment/rq2_workspace_feasibility/tiny_20261024_022646_327722",
+  "source_configuration_sha256": "af3fb64d24e1e816200b9de5d9484ac46e73dc495c95fa90b4bf8e1a3f493c20",
+  "diagnostic_script_sha256": "b8085aeeff1acc4de91558f31a85b692d6f42c527b2d451ae0591f97daebc81b",
+  "torch": "2.4.1+cu121",
+  "transformers": "4.46.2",
+  "gpu": "NVIDIA L20",
+  "precision": "FP32; TF32 disabled",
+  "base_groups": 2,
+  "records": 4,
+  "base_ids": [
+    "dev_0000",
+    "dev_0001"
+  ],
+  "data_audit": {
+    "training_records": 512,
+    "development_records": 256,
+    "training_answer_labels": 26,
+    "solver_and_prompt_audit": true,
+    "identical_labelled_edge_sets_overlap": 0,
+    "structural_isomorphism_disjoint": false
+  },
+  "conditions": [
+    "normal",
+    "self_replay",
+    "opposite_query_workspace",
+    "norm_matched_random",
+    "zero_workspace"
+  ],
+  "bootstrap": {
+    "replicates": 2000,
+    "unit": "base graph with both queries",
+    "intervals": "pointwise percentile 95%; exploratory, no multiplicity correction"
+  },
+  "compute_convention": "Two FLOPs per multiply-add. Profiler estimates and analytical cross-check count dense matmuls only; elementwise ops, softmax, norms, embeddings and tensor movement are excluded.",
+  "limitations": [
+    "One training seed; simple two-chain development task.",
+    "Native schedules are profiled, not automatically matched or optimized.",
+    "Readout sees question context; interventions test conditional workspace dependence.",
+    "Zero/random interventions may cause general damage; query-donor effects require controls.",
+    "Same-shape interventions preserve recipient readout positions, not necessarily the latent distribution.",
+    "Direct reference retains the initial EOS workspace; its perturbations are a control."
+  ]
+}

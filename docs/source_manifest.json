@@ -1,0 +1,127 @@
+[
+  {
+    "repository_path": "experiments/original_checkpoint_states/trace_mentor_coconut_layers.py",
+    "uploaded_path": "mentor_experiment/trace_mentor_coconut_layers.py",
+    "sha256": "62d279c5024b5286fdb03dd2b846daf565a0e876bc1e69e9a434120ae489462b"
+  },
+  {
+    "repository_path": "experiments/original_checkpoint_states/trace_original_huginn_iterations.py",
+    "uploaded_path": "mentor_experiment/trace_original_huginn_iterations.py",
+    "sha256": "49b3705c7425dedbb24237b147f692ce48602b0bc6a585de64c1d152b678be49"
+  },
+  {
+    "repository_path": "experiments/original_checkpoint_states/analyze_original_model_states.py",
+    "uploaded_path": "mentor_experiment/analyze_original_model_states.py",
+    "sha256": "c9a10cdec72dce14ac6bf41c57d6f9e7ebbfd179d6f5a793c36e0c5e49c492c1"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/audit_control_tokens.py",
+    "uploaded_path": "mentor_experiment/audit_control_tokens.py",
+    "sha256": "42711092ea26029b58817e9f9c6c8f59d09bb488b002b27ed42d666d10be201b"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/trace_coconut_relevance_control.py",
+    "uploaded_path": "mentor_experiment/trace_coconut_relevance_control.py",
+    "sha256": "bef4dd1f7cd69f170720380bb3e6bf1223676b1381a5fb10eb66dd63ef381124"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/trace_huginn_relevance_control.py",
+    "uploaded_path": "mentor_experiment/trace_huginn_relevance_control.py",
+    "sha256": "e369938c7fec8500e5f86b07ce5b0634c0cedc3d0ab6d6878196ced3deac7f49"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/trace_huginn_relevance_seeds.py",
+    "uploaded_path": "mentor_experiment/trace_huginn_relevance_seeds.py",
+    "sha256": "d9ed94acef9a5d7a9eac338919bce86db18951e32fb8b9f310901dd783fe9e9a"
+  },
+  {
+    "repository_path": "experiments/common_backbone_feasibility/run_rq2_workspace_feasibility_v1.py",
+    "uploaded_path": "mentor_experiment/run_rq2_workspace_feasibility_v1.py",
+    "sha256": "ef413b8600b5481333a350fb6acab6d73ea9744ffa827704a5acaaae8428b9ca"
+  },
+  {
+    "repository_path": "experiments/common_backbone_feasibility/diagnose_rq2_workspace_v1.py",
+    "uploaded_path": "mentor_experiment/diagnose_rq2_workspace_v1.py",
+    "sha256": "b8085aeeff1acc4de91558f31a85b692d6f42c527b2d451ae0591f97daebc81b"
+  },
+  {
+    "repository_path": "experiments/common_backbone_feasibility/audit_rq2_existing_baselines.py",
+    "uploaded_path": "mentor_experiment/audit_rq2_existing_baselines.py",
+    "sha256": "4819969549029cdd7499f44cd3aead06cb093d413384dd9b00d297c8a7980853"
+  },
+  {
+    "repository_path": "experiments/original_checkpoint_states/trace_original_ouro.py",
+    "uploaded_path": "nihad_scripts/trace_original_ouro.py",
+    "sha256": "7b9ec04b8b5c4870211ffd097b9292e4c66e48c08bb281962f20a2ccb0d78a2c"
+  },
+  {
+    "repository_path": "experiments/original_checkpoint_states/trace_original_simcot.py",
+    "uploaded_path": "nihad_scripts/trace_original_simcot.py",
+    "sha256": "eff555c06e73352cd2e3166ba881575762a57947ffba6e25b3f57586198a79b7"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/trace_ouro_relevance_control.py",
+    "uploaded_path": "nihad_scripts/trace_ouro_relevance_control.py",
+    "sha256": "e1ab1d99fe09d7df9b6ef8f8e966a04054a6af74bab1b3a5edf875e3170b8281"
+  },
+  {
+    "repository_path": "experiments/relevance_controls/trace_simcot_relevance_control.py",
+    "uploaded_path": "nihad_scripts/trace_simcot_relevance_control.py",
+    "sha256": "2270aa859f42b19a7edcc2babfcc0a7a3d56d77f0298b7e364d781fafe4526e6"
+  },
+  {
+    "repository_path": "experiments/rbs_node_readout/run_rbs_node_readout.py",
+    "uploaded_path": "rbs_review/run_rbs_node_readout.py",
+    "sha256": "65c4b0f5403b834134e1ac4f6569646f1fc9e0983815ed751d7a722c6d983aa3"
+  },
+  {
+    "repository_path": "experiments/rbs_order_controls/run_rbs_order_controls.py",
+    "uploaded_path": "rbs_review/run_rbs_order_controls.py",
+    "sha256": "10bf8a3342d34cf46784e7ae31a22696b7d8a7761683a3549e0291183f56b002"
+  },
+  {
+    "repository_path": "third_party/coconut_reference/README.md",
+    "uploaded_path": "coconut_reference/README.md",
+    "sha256": "b519c51f99e63e22effd2cd1c73d4c229c1d777186e8a4ad8892eac9b73b2f72"
+  },
+  {
+    "repository_path": "third_party/coconut_reference/coconut.py",
+    "uploaded_path": "coconut_reference/coconut.py",
+    "sha256": "c12f0e6d5a6ba37831dc4e133dc52b16dce08f89169252313e0460175e6d02bb"
+  },
+  {
+    "repository_path": "third_party/coconut_reference/LICENSE",
+    "uploaded_path": "coconut_reference/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  {
+    "repository_path": "third_party/rbs_review/stokenizer.py",
+    "uploaded_path": "rbs_review/stokenizer.py",
+    "sha256": "ec77a689db29466b99b0d3e56bfaf38b8799a9b202fa8cb1c12cadd9b5845ef1"
+  },
+  {
+    "repository_path": "third_party/rbs_review/README.md",
+    "uploaded_path": "rbs_review/README.md",
+    "sha256": "e460d7d7ef1b48f210e04f558366b6b53f2d8e496f7db43f0ab0bc2a020b9d40"
+  },
+  {
+    "repository_path": "third_party/rbs_review/coconut.py",
+    "uploaded_path": "rbs_review/coconut.py",
+    "sha256": "b8e36fc5005cdb824730dbf59b7c7424198225ec685b16662822c24779d8e13d"
+  },
+  {
+    "repository_path": "third_party/rbs_review/requirements.txt",
+    "uploaded_path": "rbs_review/requirements.txt",
+    "sha256": "53db2609c8cb1b8af25322b87bb5a66a89fc105b80e0a9b64b4784c4ef31a015"
+  },
+  {
+    "repository_path": "third_party/rbs_review/LICENSE",
+    "uploaded_path": "rbs_review/LICENSE",
+    "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173"
+  },
+  {
+    "repository_path": "third_party/rbs_review/configs/symbol-2layer-8head-768dim.json",
+    "uploaded_path": "rbs_review/configs/symbol-2layer-8head-768dim.json",
+    "sha256": "8106ad2eaf9c9e015f42310fe63140a2f7d70bf822c2269f939e464572eadd7e"
+  }
+]

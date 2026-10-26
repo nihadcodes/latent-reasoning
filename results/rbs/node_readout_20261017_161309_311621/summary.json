@@ -1,0 +1,52 @@
+{
+  "analysis": "Fixed-cohort adaptation of RBS notebook node-embedding readout",
+  "checkpoint": "/mnt/home/user16/nihad/reasoning_by_superposition_review/artifacts/coconut_theory/checkpoint_300",
+  "checkpoint_sha256": "6fafa619ab8b57c065e9f3fe94d3eecb13a42d880441d582b1b0bfa3ae8a6fc0",
+  "checkpoint_variant": "published example; not exact reported-accuracy reproduction",
+  "dataset": "/mnt/home/user16/nihad/reasoning_by_superposition_review/data/prosqa_test_graph_4_coconut.json",
+  "dataset_sha256": "584083aebf7ee583308d56a909d7e62bd560ad9acd0bf0a1dec514bff9143267",
+  "dataset_records": 419,
+  "eligible_fixed_cohort": 217,
+  "graphs": 2,
+  "graph_indices": [
+    50,
+    145
+  ],
+  "steps": 4,
+  "seed": 2026,
+  "precision": "torch.float32",
+  "torch": "2.4.1+cu121",
+  "transformers": "4.46.2",
+  "gpu": "NVIDIA L20",
+  "attention_backend": "eager",
+  "strict_loading": true,
+  "maximum_feedback_error": 0.0,
+  "maximum_prefix_extraction_error": 0.0,
+  "extraction_check_graphs": 2,
+  "correctness_filter": false,
+  "answer_generation": false,
+  "bootstrap_replicates": 2000,
+  "bootstrap_unit": "graph",
+  "confidence_intervals": "pointwise 95% percentile; not simultaneous",
+  "pooling": "histograms pool graph-node pairs; estimates average graph means",
+  "definitions": {
+    "walk_frontier": "Nodes reachable by a walk of exactly k edges; may overlap earlier frontiers",
+    "reachable_up_to_k": "Union of walk frontiers from 0 through k",
+    "not_reached_up_to_k": "Present graph nodes outside reachable_up_to_k; can include later-reachable nodes",
+    "reference_optimal": "Dataset neighbor_k, solver-verified nodes at depth k on shortest root-to-target paths"
+  },
+  "limitations": [
+    "Restricted four-step-annotated cohort when steps=4",
+    "Nested node categories are not independent groups",
+    "Embedding readout is not proof of causal use or BFS",
+    "The mapping from latent step to graph depth follows the notebook and must be tested later",
+    "Cosine and bootstrap analysis are additions to the notebook"
+  ],
+  "source_hashes": {
+    "coconut.py": "b8e36fc5005cdb824730dbf59b7c7424198225ec685b16662822c24779d8e13d",
+    "stokenizer.py": "ec77a689db29466b99b0d3e56bfaf38b8799a9b202fa8cb1c12cadd9b5845ef1",
+    "configs/symbol-2layer-8head-768dim.json": "8106ad2eaf9c9e015f42310fe63140a2f7d70bf822c2269f939e464572eadd7e"
+  },
+  "analysis_script_sha256": "65c4b0f5403b834134e1ac4f6569646f1fc9e0983815ed751d7a722c6d983aa3",
+  "plots": "unavailable: No module named 'matplotlib'"
+}

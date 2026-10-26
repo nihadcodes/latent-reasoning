@@ -1,0 +1,28 @@
+{
+  "model": "Coconut",
+  "checkpoint": "/mnt/home/user16/nihad/coconut/checkpoints/checkpoint_24",
+  "checkpoint_loaded_strictly": true,
+  "checkpoint_variant": "mentor original; no synthetic adaptation",
+  "split": "validation",
+  "base_groups": 2,
+  "records": 16,
+  "latent_steps": 6,
+  "transformer_blocks": 12,
+  "raw_block_tensor_shape": [
+    6,
+    12,
+    768
+  ],
+  "maximum_feedback_error": 0.0,
+  "maximum_final_state_error": 0.0,
+  "correctness_filter": false,
+  "answer_generation": false,
+  "dataset_sha256": "2b9d0c415522a12bafd31cf0162a7747704833ca7e8d99061c96242f074210c8",
+  "base_ids": [
+    "validation_0000",
+    "validation_0001"
+  ],
+  "precision": "torch.float32",
+  "torch_version": "2.4.1+cu121",
+  "state_definition": "For each latent injection, raw outputs of every GPT-2 block at its source position. Final layer normalization is stored separately. Steps correspond to vectors injected into slots."
+}

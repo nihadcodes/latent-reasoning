@@ -1,0 +1,8642 @@
+[
+  {
+    "base_id": "validation_0000",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: X -> B. P -> Q. B -> D. Q -> K.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "X",
+        "B"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: X -> B. P -> Q. B -> D. Q -> K.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "X",
+        "B"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: P -> R. J -> V. R -> A. V -> T.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "P",
+        "R"
+      ],
+      [
+        "J",
+        "V"
+      ],
+      [
+        "R",
+        "A"
+      ],
+      [
+        "V",
+        "T"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: P -> R. J -> V. R -> A. V -> T.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "P",
+        "R"
+      ],
+      [
+        "J",
+        "V"
+      ],
+      [
+        "R",
+        "A"
+      ],
+      [
+        "V",
+        "T"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: X -> G. P -> Q. G -> D. Q -> K.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "X",
+        "G"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: X -> G. P -> Q. G -> D. Q -> K.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "X",
+        "G"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "G",
+        "D"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: X -> B. P -> Q. B -> W. Q -> K.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "X",
+        "B"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "B",
+        "W"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0000",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: X -> B. P -> Q. B -> W. Q -> K.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "X",
+        "B"
+      ],
+      [
+        "P",
+        "Q"
+      ],
+      [
+        "B",
+        "W"
+      ],
+      [
+        "Q",
+        "K"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: N -> R. K -> N. F -> S. D -> F.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "N",
+        "R"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: N -> R. K -> N. F -> S. D -> F.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "N",
+        "R"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> H. E -> C. X -> T. I -> X.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "C",
+        "H"
+      ],
+      [
+        "E",
+        "C"
+      ],
+      [
+        "X",
+        "T"
+      ],
+      [
+        "I",
+        "X"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> H. E -> C. X -> T. I -> X.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "C",
+        "H"
+      ],
+      [
+        "E",
+        "C"
+      ],
+      [
+        "X",
+        "T"
+      ],
+      [
+        "I",
+        "X"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: H -> R. K -> H. F -> S. D -> F.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "H",
+        "R"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: H -> R. K -> H. F -> S. D -> F.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "H",
+        "R"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: N -> Z. K -> N. F -> S. D -> F.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "N",
+        "Z"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0001",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: N -> Z. K -> N. F -> S. D -> F.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "N",
+        "Z"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: O -> U. K -> E. R -> O. L -> K.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "K",
+        "E"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "K"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: O -> U. K -> E. R -> O. L -> K.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "K",
+        "E"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "K"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: R -> H. C -> X. A -> R. S -> C.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "R",
+        "H"
+      ],
+      [
+        "C",
+        "X"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "S",
+        "C"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: R -> H. C -> X. A -> R. S -> C.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "R",
+        "H"
+      ],
+      [
+        "C",
+        "X"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "S",
+        "C"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: O -> U. F -> E. R -> O. L -> F.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "F",
+        "E"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "F"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: O -> U. F -> E. R -> O. L -> F.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "F",
+        "E"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "F"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: O -> U. K -> M. R -> O. L -> K.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "K"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0002",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: O -> U. K -> M. R -> O. L -> K.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "O",
+        "U"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "R",
+        "O"
+      ],
+      [
+        "L",
+        "K"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: R -> W. Q -> S. W -> I. S -> P.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "R",
+        "W"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "W",
+        "I"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: R -> W. Q -> S. W -> I. S -> P.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "R",
+        "W"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "W",
+        "I"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: N -> A. D -> P. A -> M. P -> Z.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "N",
+        "A"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "A",
+        "M"
+      ],
+      [
+        "P",
+        "Z"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: N -> A. D -> P. A -> M. P -> Z.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "N",
+        "A"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "A",
+        "M"
+      ],
+      [
+        "P",
+        "Z"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: R -> F. Q -> S. F -> I. S -> P.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "R",
+        "F"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "F",
+        "I"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: R -> F. Q -> S. F -> I. S -> P.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "R",
+        "F"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "F",
+        "I"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: R -> W. Q -> S. W -> B. S -> P.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "R",
+        "W"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0003",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: R -> W. Q -> S. W -> B. S -> P.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "R",
+        "W"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "S",
+        "P"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: O -> M. Y -> E. M -> H. R -> Y.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "Y"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: O -> M. Y -> E. M -> H. R -> Y.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "Y"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: A -> N. R -> I. N -> B. T -> R.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "A",
+        "N"
+      ],
+      [
+        "R",
+        "I"
+      ],
+      [
+        "N",
+        "B"
+      ],
+      [
+        "T",
+        "R"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: A -> N. R -> I. N -> B. T -> R.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "A",
+        "N"
+      ],
+      [
+        "R",
+        "I"
+      ],
+      [
+        "N",
+        "B"
+      ],
+      [
+        "T",
+        "R"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: O -> M. X -> E. M -> H. R -> X.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "X",
+        "E"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "X"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: O -> M. X -> E. M -> H. R -> X.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "X",
+        "E"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "X"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: O -> M. Y -> Z. M -> H. R -> Y.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "Y",
+        "Z"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "Y"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0004",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: O -> M. Y -> Z. M -> H. R -> Y.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "O",
+        "M"
+      ],
+      [
+        "Y",
+        "Z"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "R",
+        "Y"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Y -> K. K -> F. Z -> B. V -> Z.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "Y",
+        "K"
+      ],
+      [
+        "K",
+        "F"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Y -> K. K -> F. Z -> B. V -> Z.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "K"
+      ],
+      [
+        "K",
+        "F"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: Q -> M. M -> P. S -> O. J -> S.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "S",
+        "O"
+      ],
+      [
+        "J",
+        "S"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: Q -> M. M -> P. S -> O. J -> S.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "S",
+        "O"
+      ],
+      [
+        "J",
+        "S"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> M. M -> F. Z -> B. V -> Z.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "Y",
+        "M"
+      ],
+      [
+        "M",
+        "F"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> M. M -> F. Z -> B. V -> Z.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "M"
+      ],
+      [
+        "M",
+        "F"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> K. K -> O. Z -> B. V -> Z.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "Y",
+        "K"
+      ],
+      [
+        "K",
+        "O"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0005",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> K. K -> O. Z -> B. V -> Z.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "K"
+      ],
+      [
+        "K",
+        "O"
+      ],
+      [
+        "Z",
+        "B"
+      ],
+      [
+        "V",
+        "Z"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: U -> C. Q -> S. C -> I. B -> Q.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "Q"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: U -> C. Q -> S. C -> I. B -> Q.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "Q",
+        "S"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "Q"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: D -> B. O -> H. B -> F. Y -> O.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "D",
+        "B"
+      ],
+      [
+        "O",
+        "H"
+      ],
+      [
+        "B",
+        "F"
+      ],
+      [
+        "Y",
+        "O"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: D -> B. O -> H. B -> F. Y -> O.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "D",
+        "B"
+      ],
+      [
+        "O",
+        "H"
+      ],
+      [
+        "B",
+        "F"
+      ],
+      [
+        "Y",
+        "O"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> C. H -> S. C -> I. B -> H.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "H",
+        "S"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "H"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> C. H -> S. C -> I. B -> H.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "H",
+        "S"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "H"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> C. Q -> E. C -> I. B -> Q.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "Q",
+        "E"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "Q"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0006",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> C. Q -> E. C -> I. B -> Q.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "U",
+        "C"
+      ],
+      [
+        "Q",
+        "E"
+      ],
+      [
+        "C",
+        "I"
+      ],
+      [
+        "B",
+        "Q"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Y -> E. P -> W. E -> V. W -> A.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "E",
+        "V"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Y -> E. P -> W. E -> V. W -> A.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "E",
+        "V"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: T -> Y. R -> N. Y -> Q. N -> I.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "R",
+        "N"
+      ],
+      [
+        "Y",
+        "Q"
+      ],
+      [
+        "N",
+        "I"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: T -> Y. R -> N. Y -> Q. N -> I.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "R",
+        "N"
+      ],
+      [
+        "Y",
+        "Q"
+      ],
+      [
+        "N",
+        "I"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> Q. P -> W. Q -> V. W -> A.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "Y",
+        "Q"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "Q",
+        "V"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> Q. P -> W. Q -> V. W -> A.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "Y",
+        "Q"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "Q",
+        "V"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> E. P -> W. E -> X. W -> A.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "E",
+        "X"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0007",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> E. P -> W. E -> X. W -> A.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "Y",
+        "E"
+      ],
+      [
+        "P",
+        "W"
+      ],
+      [
+        "E",
+        "X"
+      ],
+      [
+        "W",
+        "A"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Z -> T. O -> Z. A -> U. U -> B.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "U"
+      ],
+      [
+        "U",
+        "B"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Z -> T. O -> Z. A -> U. U -> B.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "U"
+      ],
+      [
+        "U",
+        "B"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: W -> J. K -> W. S -> M. M -> Z.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "W",
+        "J"
+      ],
+      [
+        "K",
+        "W"
+      ],
+      [
+        "S",
+        "M"
+      ],
+      [
+        "M",
+        "Z"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: W -> J. K -> W. S -> M. M -> Z.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "W",
+        "J"
+      ],
+      [
+        "K",
+        "W"
+      ],
+      [
+        "S",
+        "M"
+      ],
+      [
+        "M",
+        "Z"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Z -> T. O -> Z. A -> C. C -> B.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "C",
+        "B"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Z -> T. O -> Z. A -> C. C -> B.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "C",
+        "B"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Z -> T. O -> Z. A -> U. U -> I.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "U"
+      ],
+      [
+        "U",
+        "I"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0008",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Z -> T. O -> Z. A -> U. U -> I.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ],
+      [
+        "A",
+        "U"
+      ],
+      [
+        "U",
+        "I"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: L -> W. W -> M. Z -> T. R -> Z.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "L",
+        "W"
+      ],
+      [
+        "W",
+        "M"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: L -> W. W -> M. Z -> T. R -> Z.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "L",
+        "W"
+      ],
+      [
+        "W",
+        "M"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: T -> W. W -> G. R -> Y. S -> R.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "T",
+        "W"
+      ],
+      [
+        "W",
+        "G"
+      ],
+      [
+        "R",
+        "Y"
+      ],
+      [
+        "S",
+        "R"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: T -> W. W -> G. R -> Y. S -> R.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "T",
+        "W"
+      ],
+      [
+        "W",
+        "G"
+      ],
+      [
+        "R",
+        "Y"
+      ],
+      [
+        "S",
+        "R"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: L -> J. J -> M. Z -> T. R -> Z.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "L",
+        "J"
+      ],
+      [
+        "J",
+        "M"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: L -> J. J -> M. Z -> T. R -> Z.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "L",
+        "J"
+      ],
+      [
+        "J",
+        "M"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: L -> W. W -> G. Z -> T. R -> Z.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "L",
+        "W"
+      ],
+      [
+        "W",
+        "G"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0009",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: L -> W. W -> G. Z -> T. R -> Z.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "L",
+        "W"
+      ],
+      [
+        "W",
+        "G"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "R",
+        "Z"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: G -> K. M -> J. K -> P. V -> M.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "G",
+        "K"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "K",
+        "P"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: G -> K. M -> J. K -> P. V -> M.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "G",
+        "K"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "K",
+        "P"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: Q -> J. Z -> V. J -> R. M -> Z.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "Q",
+        "J"
+      ],
+      [
+        "Z",
+        "V"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "M",
+        "Z"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: Q -> J. Z -> V. J -> R. M -> Z.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "Q",
+        "J"
+      ],
+      [
+        "Z",
+        "V"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "M",
+        "Z"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> H. M -> J. H -> P. V -> M.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "G",
+        "H"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> H. M -> J. H -> P. V -> M.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "G",
+        "H"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> K. M -> J. K -> Y. V -> M.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "G",
+        "K"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "K",
+        "Y"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0010",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> K. M -> J. K -> Y. V -> M.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "G",
+        "K"
+      ],
+      [
+        "M",
+        "J"
+      ],
+      [
+        "K",
+        "Y"
+      ],
+      [
+        "V",
+        "M"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: H -> L. T -> J. K -> H. X -> T.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "T",
+        "J"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "T"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: H -> L. T -> J. K -> H. X -> T.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "T",
+        "J"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "T"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: F -> L. Y -> U. I -> F. S -> Y.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "F",
+        "L"
+      ],
+      [
+        "Y",
+        "U"
+      ],
+      [
+        "I",
+        "F"
+      ],
+      [
+        "S",
+        "Y"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: F -> L. Y -> U. I -> F. S -> Y.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "F",
+        "L"
+      ],
+      [
+        "Y",
+        "U"
+      ],
+      [
+        "I",
+        "F"
+      ],
+      [
+        "S",
+        "Y"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: H -> L. W -> J. K -> H. X -> W.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "W",
+        "J"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "W"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: H -> L. W -> J. K -> H. X -> W.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "W",
+        "J"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "W"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: H -> L. T -> Q. K -> H. X -> T.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "T",
+        "Q"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "T"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0011",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: H -> L. T -> Q. K -> H. X -> T.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "H",
+        "L"
+      ],
+      [
+        "T",
+        "Q"
+      ],
+      [
+        "K",
+        "H"
+      ],
+      [
+        "X",
+        "T"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Q -> M. O -> F. F -> Y. U -> Q.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Q"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Q -> M. O -> F. F -> Y. U -> Q.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "Q",
+        "M"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Q"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> S. E -> Z. Z -> W. B -> C.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "C",
+        "S"
+      ],
+      [
+        "E",
+        "Z"
+      ],
+      [
+        "Z",
+        "W"
+      ],
+      [
+        "B",
+        "C"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> S. E -> Z. Z -> W. B -> C.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "C",
+        "S"
+      ],
+      [
+        "E",
+        "Z"
+      ],
+      [
+        "Z",
+        "W"
+      ],
+      [
+        "B",
+        "C"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Z -> M. O -> F. F -> Y. U -> Z.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "Z",
+        "M"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Z"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Z -> M. O -> F. F -> Y. U -> Z.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "Z",
+        "M"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Z"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Q -> K. O -> F. F -> Y. U -> Q.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "Q",
+        "K"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Q"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0012",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Q -> K. O -> F. F -> Y. U -> Q.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "Q",
+        "K"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "F",
+        "Y"
+      ],
+      [
+        "U",
+        "Q"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: A -> E. P -> U. H -> P. E -> J.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "E",
+        "J"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: A -> E. P -> U. H -> P. E -> J.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "E",
+        "J"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: K -> O. C -> Z. N -> C. O -> E.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "K",
+        "O"
+      ],
+      [
+        "C",
+        "Z"
+      ],
+      [
+        "N",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: K -> O. C -> Z. N -> C. O -> E.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "K",
+        "O"
+      ],
+      [
+        "C",
+        "Z"
+      ],
+      [
+        "N",
+        "C"
+      ],
+      [
+        "O",
+        "E"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: A -> G. P -> U. H -> P. G -> J.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "A",
+        "G"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "G",
+        "J"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: A -> G. P -> U. H -> P. G -> J.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "A",
+        "G"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "G",
+        "J"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: A -> E. P -> U. H -> P. E -> S.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "E",
+        "S"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0013",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: A -> E. P -> U. H -> P. E -> S.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "P",
+        "U"
+      ],
+      [
+        "H",
+        "P"
+      ],
+      [
+        "E",
+        "S"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: S -> B. N -> O. B -> M. Y -> N.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "S",
+        "B"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "B",
+        "M"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: S -> B. N -> O. B -> M. Y -> N.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "S",
+        "B"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "B",
+        "M"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: F -> Z. M -> H. Z -> V. I -> M.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "F",
+        "Z"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "Z",
+        "V"
+      ],
+      [
+        "I",
+        "M"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: F -> Z. M -> H. Z -> V. I -> M.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "F",
+        "Z"
+      ],
+      [
+        "M",
+        "H"
+      ],
+      [
+        "Z",
+        "V"
+      ],
+      [
+        "I",
+        "M"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: S -> E. N -> O. E -> M. Y -> N.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "S",
+        "E"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "E",
+        "M"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: S -> E. N -> O. E -> M. Y -> N.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "S",
+        "E"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "E",
+        "M"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: S -> B. N -> O. B -> D. Y -> N.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "S",
+        "B"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0014",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: S -> B. N -> O. B -> D. Y -> N.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "S",
+        "B"
+      ],
+      [
+        "N",
+        "O"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "Y",
+        "N"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: T -> K. K -> N. X -> C. V -> X.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "X",
+        "C"
+      ],
+      [
+        "V",
+        "X"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: T -> K. K -> N. X -> C. V -> X.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "X",
+        "C"
+      ],
+      [
+        "V",
+        "X"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: P -> F. F -> X. Q -> G. C -> Q.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "X"
+      ],
+      [
+        "Q",
+        "G"
+      ],
+      [
+        "C",
+        "Q"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: P -> F. F -> X. Q -> G. C -> Q.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "X"
+      ],
+      [
+        "Q",
+        "G"
+      ],
+      [
+        "C",
+        "Q"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: T -> K. K -> N. A -> C. V -> A.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "V",
+        "A"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: T -> K. K -> N. A -> C. V -> A.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "V",
+        "A"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: T -> K. K -> N. X -> P. V -> X.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "X",
+        "P"
+      ],
+      [
+        "V",
+        "X"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0015",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: T -> K. K -> N. X -> P. V -> X.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "T",
+        "K"
+      ],
+      [
+        "K",
+        "N"
+      ],
+      [
+        "X",
+        "P"
+      ],
+      [
+        "V",
+        "X"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Z -> O. O -> C. F -> P. P -> X.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "P"
+      ],
+      [
+        "P",
+        "X"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Z -> O. O -> C. F -> P. P -> X.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "P"
+      ],
+      [
+        "P",
+        "X"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: M -> O. O -> H. C -> Y. Y -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "M",
+        "O"
+      ],
+      [
+        "O",
+        "H"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "Y",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: M -> O. O -> H. C -> Y. Y -> D.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "M",
+        "O"
+      ],
+      [
+        "O",
+        "H"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "Y",
+        "D"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Z -> O. O -> C. F -> B. B -> X.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "B"
+      ],
+      [
+        "B",
+        "X"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Z -> O. O -> C. F -> B. B -> X.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "B"
+      ],
+      [
+        "B",
+        "X"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Z -> O. O -> C. F -> P. P -> G.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0016",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Z -> O. O -> C. F -> P. P -> G.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "O",
+        "C"
+      ],
+      [
+        "F",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: T -> Z. W -> H. F -> T. M -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "T",
+        "Z"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "T"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: T -> Z. W -> H. F -> T. M -> W.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "T",
+        "Z"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "T"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: X -> G. Y -> V. D -> X. U -> Y.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "X",
+        "G"
+      ],
+      [
+        "Y",
+        "V"
+      ],
+      [
+        "D",
+        "X"
+      ],
+      [
+        "U",
+        "Y"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: X -> G. Y -> V. D -> X. U -> Y.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "X",
+        "G"
+      ],
+      [
+        "Y",
+        "V"
+      ],
+      [
+        "D",
+        "X"
+      ],
+      [
+        "U",
+        "Y"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: A -> Z. W -> H. F -> A. M -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "A",
+        "Z"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "A"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: A -> Z. W -> H. F -> A. M -> W.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "A",
+        "Z"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "A"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: T -> X. W -> H. F -> T. M -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "T",
+        "X"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "T"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0017",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: T -> X. W -> H. F -> T. M -> W.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "T",
+        "X"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "F",
+        "T"
+      ],
+      [
+        "M",
+        "W"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: U -> O. Q -> W. W -> K. O -> Z.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "W"
+      ],
+      [
+        "W",
+        "K"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: U -> O. Q -> W. W -> K. O -> Z.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "W"
+      ],
+      [
+        "W",
+        "K"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> D. F -> G. G -> E. D -> Z.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "G",
+        "E"
+      ],
+      [
+        "D",
+        "Z"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> D. F -> G. G -> E. D -> Z.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "G",
+        "E"
+      ],
+      [
+        "D",
+        "Z"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> O. Q -> A. A -> K. O -> Z.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "A"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> O. Q -> A. A -> K. O -> Z.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "A"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> O. Q -> W. W -> X. O -> Z.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "W"
+      ],
+      [
+        "W",
+        "X"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0018",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> O. Q -> W. W -> X. O -> Z.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "U",
+        "O"
+      ],
+      [
+        "Q",
+        "W"
+      ],
+      [
+        "W",
+        "X"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: K -> S. J -> K. B -> E. E -> C.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "E",
+        "C"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: K -> S. J -> K. B -> E. E -> C.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "E",
+        "C"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: P -> L. X -> P. J -> C. C -> S.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "P",
+        "L"
+      ],
+      [
+        "X",
+        "P"
+      ],
+      [
+        "J",
+        "C"
+      ],
+      [
+        "C",
+        "S"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: P -> L. X -> P. J -> C. C -> S.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "P",
+        "L"
+      ],
+      [
+        "X",
+        "P"
+      ],
+      [
+        "J",
+        "C"
+      ],
+      [
+        "C",
+        "S"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: K -> S. J -> K. B -> V. V -> C.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "V"
+      ],
+      [
+        "V",
+        "C"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: K -> S. J -> K. B -> V. V -> C.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "V"
+      ],
+      [
+        "V",
+        "C"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: K -> S. J -> K. B -> E. E -> Y.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "E",
+        "Y"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0019",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: K -> S. J -> K. B -> E. E -> Y.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "K",
+        "S"
+      ],
+      [
+        "J",
+        "K"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "E",
+        "Y"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: U -> L. K -> Q. G -> U. D -> K.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "K",
+        "Q"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "K"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: U -> L. K -> Q. G -> U. D -> K.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "K",
+        "Q"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "K"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: Y -> U. X -> C. I -> Y. B -> X.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "Y",
+        "U"
+      ],
+      [
+        "X",
+        "C"
+      ],
+      [
+        "I",
+        "Y"
+      ],
+      [
+        "B",
+        "X"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: Y -> U. X -> C. I -> Y. B -> X.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "Y",
+        "U"
+      ],
+      [
+        "X",
+        "C"
+      ],
+      [
+        "I",
+        "Y"
+      ],
+      [
+        "B",
+        "X"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> L. W -> Q. G -> U. D -> W.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "W",
+        "Q"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "W"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> L. W -> Q. G -> U. D -> W.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "W",
+        "Q"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "W"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> L. K -> Z. G -> U. D -> K.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "K",
+        "Z"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "K"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0020",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> L. K -> Z. G -> U. D -> K.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "U",
+        "L"
+      ],
+      [
+        "K",
+        "Z"
+      ],
+      [
+        "G",
+        "U"
+      ],
+      [
+        "D",
+        "K"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: A -> N. K -> M. F -> K. E -> A.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "A",
+        "N"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "A"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: A -> N. K -> M. F -> K. E -> A.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "A",
+        "N"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "A"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: G -> L. Y -> N. T -> Y. Q -> G.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "G",
+        "L"
+      ],
+      [
+        "Y",
+        "N"
+      ],
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "Q",
+        "G"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: G -> L. Y -> N. T -> Y. Q -> G.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "G",
+        "L"
+      ],
+      [
+        "Y",
+        "N"
+      ],
+      [
+        "T",
+        "Y"
+      ],
+      [
+        "Q",
+        "G"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Q -> N. K -> M. F -> K. E -> Q.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "Q"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Q -> N. K -> M. F -> K. E -> Q.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "Q"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: A -> L. K -> M. F -> K. E -> A.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "A",
+        "L"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "A"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0021",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: A -> L. K -> M. F -> K. E -> A.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "A",
+        "L"
+      ],
+      [
+        "K",
+        "M"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "A"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: F -> R. V -> W. W -> A. H -> F.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "W"
+      ],
+      [
+        "W",
+        "A"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: F -> R. V -> W. W -> A. H -> F.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "W"
+      ],
+      [
+        "W",
+        "A"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: N -> R. B -> J. J -> P. E -> N.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "N",
+        "R"
+      ],
+      [
+        "B",
+        "J"
+      ],
+      [
+        "J",
+        "P"
+      ],
+      [
+        "E",
+        "N"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: N -> R. B -> J. J -> P. E -> N.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "N",
+        "R"
+      ],
+      [
+        "B",
+        "J"
+      ],
+      [
+        "J",
+        "P"
+      ],
+      [
+        "E",
+        "N"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: F -> R. V -> O. O -> A. H -> F.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "O"
+      ],
+      [
+        "O",
+        "A"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: F -> R. V -> O. O -> A. H -> F.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "O"
+      ],
+      [
+        "O",
+        "A"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: F -> R. V -> W. W -> I. H -> F.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "W"
+      ],
+      [
+        "W",
+        "I"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0022",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: F -> R. V -> W. W -> I. H -> F.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "F",
+        "R"
+      ],
+      [
+        "V",
+        "W"
+      ],
+      [
+        "W",
+        "I"
+      ],
+      [
+        "H",
+        "F"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: C -> Z. W -> B. N -> W. T -> C.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "C",
+        "Z"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "C"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: C -> Z. W -> B. N -> W. T -> C.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "C",
+        "Z"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "C"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: A -> U. P -> G. M -> P. Y -> A.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "A",
+        "U"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "Y",
+        "A"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: A -> U. P -> G. M -> P. Y -> A.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "A",
+        "U"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "P"
+      ],
+      [
+        "Y",
+        "A"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: S -> Z. W -> B. N -> W. T -> S.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "S",
+        "Z"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "S"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: S -> Z. W -> B. N -> W. T -> S.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "S",
+        "Z"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "S"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: C -> K. W -> B. N -> W. T -> C.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "C",
+        "K"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "C"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0023",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: C -> K. W -> B. N -> W. T -> C.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "C",
+        "K"
+      ],
+      [
+        "W",
+        "B"
+      ],
+      [
+        "N",
+        "W"
+      ],
+      [
+        "T",
+        "C"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: B -> V. U -> B. E -> J. I -> E.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "B",
+        "V"
+      ],
+      [
+        "U",
+        "B"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: B -> V. U -> B. E -> J. I -> E.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "B",
+        "V"
+      ],
+      [
+        "U",
+        "B"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> T. K -> C. Z -> O. G -> Z.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "C",
+        "T"
+      ],
+      [
+        "K",
+        "C"
+      ],
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "G",
+        "Z"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> T. K -> C. Z -> O. G -> Z.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "C",
+        "T"
+      ],
+      [
+        "K",
+        "C"
+      ],
+      [
+        "Z",
+        "O"
+      ],
+      [
+        "G",
+        "Z"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: W -> V. U -> W. E -> J. I -> E.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "W",
+        "V"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: W -> V. U -> W. E -> J. I -> E.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "W",
+        "V"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: B -> M. U -> B. E -> J. I -> E.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "B",
+        "M"
+      ],
+      [
+        "U",
+        "B"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0024",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: B -> M. U -> B. E -> J. I -> E.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "B",
+        "M"
+      ],
+      [
+        "U",
+        "B"
+      ],
+      [
+        "E",
+        "J"
+      ],
+      [
+        "I",
+        "E"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: V -> S. S -> H. W -> L. F -> W.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "V",
+        "S"
+      ],
+      [
+        "S",
+        "H"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: V -> S. S -> H. W -> L. F -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "V",
+        "S"
+      ],
+      [
+        "S",
+        "H"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: N -> E. E -> P. Z -> T. O -> Z.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "P",
+    "edges": [
+      [
+        "N",
+        "E"
+      ],
+      [
+        "E",
+        "P"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: N -> E. E -> P. Z -> T. O -> Z.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "N",
+        "E"
+      ],
+      [
+        "E",
+        "P"
+      ],
+      [
+        "Z",
+        "T"
+      ],
+      [
+        "O",
+        "Z"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: V -> Q. Q -> H. W -> L. F -> W.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "H",
+    "edges": [
+      [
+        "V",
+        "Q"
+      ],
+      [
+        "Q",
+        "H"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: V -> Q. Q -> H. W -> L. F -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "V",
+        "Q"
+      ],
+      [
+        "Q",
+        "H"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: V -> S. S -> U. W -> L. F -> W.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "V",
+        "S"
+      ],
+      [
+        "S",
+        "U"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0025",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: V -> S. S -> U. W -> L. F -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "V",
+        "S"
+      ],
+      [
+        "S",
+        "U"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "F",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: G -> D. B -> K. D -> F. H -> B.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "G",
+        "D"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: G -> D. B -> K. D -> F. H -> B.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "G",
+        "D"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: R -> N. D -> J. N -> X. Z -> D.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "R",
+        "N"
+      ],
+      [
+        "D",
+        "J"
+      ],
+      [
+        "N",
+        "X"
+      ],
+      [
+        "Z",
+        "D"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: R -> N. D -> J. N -> X. Z -> D.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "R",
+        "N"
+      ],
+      [
+        "D",
+        "J"
+      ],
+      [
+        "N",
+        "X"
+      ],
+      [
+        "Z",
+        "D"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> A. B -> K. A -> F. H -> B.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "G",
+        "A"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "A",
+        "F"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> A. B -> K. A -> F. H -> B.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "G",
+        "A"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "A",
+        "F"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> D. B -> K. D -> Z. H -> B.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "G",
+        "D"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "D",
+        "Z"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0026",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> D. B -> K. D -> Z. H -> B.\nStart at H. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "G",
+        "D"
+      ],
+      [
+        "B",
+        "K"
+      ],
+      [
+        "D",
+        "Z"
+      ],
+      [
+        "H",
+        "B"
+      ]
+    ],
+    "start": "H",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: P -> F. F -> R. C -> T. T -> D.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "R"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: P -> F. F -> R. C -> T. T -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "R"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: A -> E. E -> O. K -> R. R -> G.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "E",
+        "O"
+      ],
+      [
+        "K",
+        "R"
+      ],
+      [
+        "R",
+        "G"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: A -> E. E -> O. K -> R. R -> G.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "A",
+        "E"
+      ],
+      [
+        "E",
+        "O"
+      ],
+      [
+        "K",
+        "R"
+      ],
+      [
+        "R",
+        "G"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: P -> K. K -> R. C -> T. T -> D.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "R",
+    "edges": [
+      [
+        "P",
+        "K"
+      ],
+      [
+        "K",
+        "R"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: P -> K. K -> R. C -> T. T -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "P",
+        "K"
+      ],
+      [
+        "K",
+        "R"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: P -> F. F -> S. C -> T. T -> D.\nStart at P. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "P",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0027",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: P -> F. F -> S. C -> T. T -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "P",
+        "F"
+      ],
+      [
+        "F",
+        "S"
+      ],
+      [
+        "C",
+        "T"
+      ],
+      [
+        "T",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: M -> R. Y -> T. C -> Y. R -> D.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "M",
+        "R"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "R",
+        "D"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: M -> R. Y -> T. C -> Y. R -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "M",
+        "R"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "R",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: T -> D. F -> V. O -> F. D -> U.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "T",
+        "D"
+      ],
+      [
+        "F",
+        "V"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "D",
+        "U"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: T -> D. F -> V. O -> F. D -> U.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "V",
+    "edges": [
+      [
+        "T",
+        "D"
+      ],
+      [
+        "F",
+        "V"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "D",
+        "U"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: M -> P. Y -> T. C -> Y. P -> D.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "M",
+        "P"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "P",
+        "D"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: M -> P. Y -> T. C -> Y. P -> D.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "M",
+        "P"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "P",
+        "D"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: M -> R. Y -> T. C -> Y. R -> L.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "M",
+        "R"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0028",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: M -> R. Y -> T. C -> Y. R -> L.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "M",
+        "R"
+      ],
+      [
+        "Y",
+        "T"
+      ],
+      [
+        "C",
+        "Y"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: R -> Q. Q -> E. K -> J. S -> K.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "R",
+        "Q"
+      ],
+      [
+        "Q",
+        "E"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: R -> Q. Q -> E. K -> J. S -> K.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "R",
+        "Q"
+      ],
+      [
+        "Q",
+        "E"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: D -> J. J -> S. P -> T. I -> P.\nStart at D. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "D",
+        "J"
+      ],
+      [
+        "J",
+        "S"
+      ],
+      [
+        "P",
+        "T"
+      ],
+      [
+        "I",
+        "P"
+      ]
+    ],
+    "start": "D",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: D -> J. J -> S. P -> T. I -> P.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "D",
+        "J"
+      ],
+      [
+        "J",
+        "S"
+      ],
+      [
+        "P",
+        "T"
+      ],
+      [
+        "I",
+        "P"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: R -> I. I -> E. K -> J. S -> K.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "R",
+        "I"
+      ],
+      [
+        "I",
+        "E"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: R -> I. I -> E. K -> J. S -> K.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "R",
+        "I"
+      ],
+      [
+        "I",
+        "E"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: R -> Q. Q -> Z. K -> J. S -> K.\nStart at R. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "R",
+        "Q"
+      ],
+      [
+        "Q",
+        "Z"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "R",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0029",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: R -> Q. Q -> Z. K -> J. S -> K.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "R",
+        "Q"
+      ],
+      [
+        "Q",
+        "Z"
+      ],
+      [
+        "K",
+        "J"
+      ],
+      [
+        "S",
+        "K"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: L -> F. Q -> C. C -> O. Z -> L.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "C"
+      ],
+      [
+        "C",
+        "O"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: L -> F. Q -> C. C -> O. Z -> L.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "C"
+      ],
+      [
+        "C",
+        "O"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> G. L -> J. J -> U. F -> C.\nStart at L. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "C",
+        "G"
+      ],
+      [
+        "L",
+        "J"
+      ],
+      [
+        "J",
+        "U"
+      ],
+      [
+        "F",
+        "C"
+      ]
+    ],
+    "start": "L",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> G. L -> J. J -> U. F -> C.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "C",
+        "G"
+      ],
+      [
+        "L",
+        "J"
+      ],
+      [
+        "J",
+        "U"
+      ],
+      [
+        "F",
+        "C"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: L -> F. Q -> X. X -> O. Z -> L.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "X"
+      ],
+      [
+        "X",
+        "O"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: L -> F. Q -> X. X -> O. Z -> L.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "X"
+      ],
+      [
+        "X",
+        "O"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: L -> F. Q -> C. C -> B. Z -> L.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "C"
+      ],
+      [
+        "C",
+        "B"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0030",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: L -> F. Q -> C. C -> B. Z -> L.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "L",
+        "F"
+      ],
+      [
+        "Q",
+        "C"
+      ],
+      [
+        "C",
+        "B"
+      ],
+      [
+        "Z",
+        "L"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Y -> B. U -> Q. X -> Y. Q -> G.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "Q"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "Q",
+        "G"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Y -> B. U -> Q. X -> Y. Q -> G.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "Q"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "Q",
+        "G"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: B -> X. I -> H. G -> B. H -> W.\nStart at I. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "B",
+        "X"
+      ],
+      [
+        "I",
+        "H"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "H",
+        "W"
+      ]
+    ],
+    "start": "I",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: B -> X. I -> H. G -> B. H -> W.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "B",
+        "X"
+      ],
+      [
+        "I",
+        "H"
+      ],
+      [
+        "G",
+        "B"
+      ],
+      [
+        "H",
+        "W"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> B. U -> M. X -> Y. M -> G.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "M"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "M",
+        "G"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> B. U -> M. X -> Y. M -> G.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "M"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "M",
+        "G"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Y -> B. U -> Q. X -> Y. Q -> T.\nStart at U. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "Q"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "Q",
+        "T"
+      ]
+    ],
+    "start": "U",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0031",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Y -> B. U -> Q. X -> Y. Q -> T.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "B",
+    "edges": [
+      [
+        "Y",
+        "B"
+      ],
+      [
+        "U",
+        "Q"
+      ],
+      [
+        "X",
+        "Y"
+      ],
+      [
+        "Q",
+        "T"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: D -> S. E -> D. J -> R. R -> L.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "D"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: D -> S. E -> D. J -> R. R -> L.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "D"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: Q -> I. J -> Q. W -> L. L -> E.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "Q",
+        "I"
+      ],
+      [
+        "J",
+        "Q"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "L",
+        "E"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: Q -> I. J -> Q. W -> L. L -> E.\nStart at W. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "Q",
+        "I"
+      ],
+      [
+        "J",
+        "Q"
+      ],
+      [
+        "W",
+        "L"
+      ],
+      [
+        "L",
+        "E"
+      ]
+    ],
+    "start": "W",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: U -> S. E -> U. J -> R. R -> L.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "U",
+        "S"
+      ],
+      [
+        "E",
+        "U"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: U -> S. E -> U. J -> R. R -> L.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "U",
+        "S"
+      ],
+      [
+        "E",
+        "U"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: D -> W. E -> D. J -> R. R -> L.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "D",
+        "W"
+      ],
+      [
+        "E",
+        "D"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0032",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: D -> W. E -> D. J -> R. R -> L.\nStart at J. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "D",
+        "W"
+      ],
+      [
+        "E",
+        "D"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "R",
+        "L"
+      ]
+    ],
+    "start": "J",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: M -> E. F -> K. E -> Q. Y -> F.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "M",
+        "E"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "Q"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: M -> E. F -> K. E -> Q. Y -> F.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "M",
+        "E"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "Q"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: F -> N. W -> Q. N -> T. K -> W.\nStart at F. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "T",
+    "edges": [
+      [
+        "F",
+        "N"
+      ],
+      [
+        "W",
+        "Q"
+      ],
+      [
+        "N",
+        "T"
+      ],
+      [
+        "K",
+        "W"
+      ]
+    ],
+    "start": "F",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: F -> N. W -> Q. N -> T. K -> W.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "F",
+        "N"
+      ],
+      [
+        "W",
+        "Q"
+      ],
+      [
+        "N",
+        "T"
+      ],
+      [
+        "K",
+        "W"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: M -> N. F -> K. N -> Q. Y -> F.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Q",
+    "edges": [
+      [
+        "M",
+        "N"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "N",
+        "Q"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: M -> N. F -> K. N -> Q. Y -> F.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "M",
+        "N"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "N",
+        "Q"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: M -> E. F -> K. E -> S. Y -> F.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "M",
+        "E"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0033",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: M -> E. F -> K. E -> S. Y -> F.\nStart at Y. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "K",
+    "edges": [
+      [
+        "M",
+        "E"
+      ],
+      [
+        "F",
+        "K"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "Y",
+        "F"
+      ]
+    ],
+    "start": "Y",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: S -> Y. A -> P. P -> G. M -> S.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "S",
+        "Y"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "S"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: S -> Y. A -> P. P -> G. M -> S.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "S",
+        "Y"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "S"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: L -> N. E -> F. F -> G. A -> L.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "L",
+        "N"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "A",
+        "L"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: L -> N. E -> F. F -> G. A -> L.\nStart at E. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "L",
+        "N"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "A",
+        "L"
+      ]
+    ],
+    "start": "E",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: I -> Y. A -> P. P -> G. M -> I.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Y",
+    "edges": [
+      [
+        "I",
+        "Y"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "I"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: I -> Y. A -> P. P -> G. M -> I.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "I",
+        "Y"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "I"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: S -> E. A -> P. P -> G. M -> S.\nStart at M. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "S",
+        "E"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "S"
+      ]
+    ],
+    "start": "M",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0034",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: S -> E. A -> P. P -> G. M -> S.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "G",
+    "edges": [
+      [
+        "S",
+        "E"
+      ],
+      [
+        "A",
+        "P"
+      ],
+      [
+        "P",
+        "G"
+      ],
+      [
+        "M",
+        "S"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: Q -> N. N -> I. B -> W. T -> B.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "B",
+        "W"
+      ],
+      [
+        "T",
+        "B"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: Q -> N. N -> I. B -> W. T -> B.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "B",
+        "W"
+      ],
+      [
+        "T",
+        "B"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: T -> F. F -> C. H -> E. B -> H.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "T",
+        "F"
+      ],
+      [
+        "F",
+        "C"
+      ],
+      [
+        "H",
+        "E"
+      ],
+      [
+        "B",
+        "H"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: T -> F. F -> C. H -> E. B -> H.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "T",
+        "F"
+      ],
+      [
+        "F",
+        "C"
+      ],
+      [
+        "H",
+        "E"
+      ],
+      [
+        "B",
+        "H"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: Q -> N. N -> I. U -> W. T -> U.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "T",
+        "U"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: Q -> N. N -> I. U -> W. T -> U.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "T",
+        "U"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: Q -> N. N -> I. B -> F. T -> B.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "B",
+        "F"
+      ],
+      [
+        "T",
+        "B"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0035",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: Q -> N. N -> I. B -> F. T -> B.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "Q",
+        "N"
+      ],
+      [
+        "N",
+        "I"
+      ],
+      [
+        "B",
+        "F"
+      ],
+      [
+        "T",
+        "B"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: T -> R. A -> K. R -> X. K -> L.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "T",
+        "R"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "R",
+        "X"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: T -> R. A -> K. R -> X. K -> L.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "T",
+        "R"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "R",
+        "X"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: C -> O. S -> G. O -> F. G -> N.\nStart at C. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "F",
+    "edges": [
+      [
+        "C",
+        "O"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "G",
+        "N"
+      ]
+    ],
+    "start": "C",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: C -> O. S -> G. O -> F. G -> N.\nStart at S. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "N",
+    "edges": [
+      [
+        "C",
+        "O"
+      ],
+      [
+        "S",
+        "G"
+      ],
+      [
+        "O",
+        "F"
+      ],
+      [
+        "G",
+        "N"
+      ]
+    ],
+    "start": "S",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: T -> D. A -> K. D -> X. K -> L.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "X",
+    "edges": [
+      [
+        "T",
+        "D"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "D",
+        "X"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: T -> D. A -> K. D -> X. K -> L.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "T",
+        "D"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "D",
+        "X"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: T -> R. A -> K. R -> I. K -> L.\nStart at T. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "I",
+    "edges": [
+      [
+        "T",
+        "R"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "R",
+        "I"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "T",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0036",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: T -> R. A -> K. R -> I. K -> L.\nStart at A. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "L",
+    "edges": [
+      [
+        "T",
+        "R"
+      ],
+      [
+        "A",
+        "K"
+      ],
+      [
+        "R",
+        "I"
+      ],
+      [
+        "K",
+        "L"
+      ]
+    ],
+    "start": "A",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: N -> W. W -> J. Z -> A. X -> Z.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "N",
+        "W"
+      ],
+      [
+        "W",
+        "J"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: N -> W. W -> J. Z -> A. X -> Z.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "N",
+        "W"
+      ],
+      [
+        "W",
+        "J"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: K -> T. T -> C. R -> Z. B -> R.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "C",
+    "edges": [
+      [
+        "K",
+        "T"
+      ],
+      [
+        "T",
+        "C"
+      ],
+      [
+        "R",
+        "Z"
+      ],
+      [
+        "B",
+        "R"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: K -> T. T -> C. R -> Z. B -> R.\nStart at B. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "Z",
+    "edges": [
+      [
+        "K",
+        "T"
+      ],
+      [
+        "T",
+        "C"
+      ],
+      [
+        "R",
+        "Z"
+      ],
+      [
+        "B",
+        "R"
+      ]
+    ],
+    "start": "B",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: N -> U. U -> J. Z -> A. X -> Z.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "J",
+    "edges": [
+      [
+        "N",
+        "U"
+      ],
+      [
+        "U",
+        "J"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: N -> U. U -> J. Z -> A. X -> Z.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "N",
+        "U"
+      ],
+      [
+        "U",
+        "J"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: N -> W. W -> E. Z -> A. X -> Z.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "E",
+    "edges": [
+      [
+        "N",
+        "W"
+      ],
+      [
+        "W",
+        "E"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0037",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: N -> W. W -> E. Z -> A. X -> Z.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "A",
+    "edges": [
+      [
+        "N",
+        "W"
+      ],
+      [
+        "W",
+        "E"
+      ],
+      [
+        "Z",
+        "A"
+      ],
+      [
+        "X",
+        "Z"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: G -> O. Z -> I. O -> M. I -> D.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "I"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "I",
+        "D"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: G -> O. Z -> I. O -> M. I -> D.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "I"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "I",
+        "D"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: N -> E. Q -> Y. E -> S. Y -> W.\nStart at Q. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "N",
+        "E"
+      ],
+      [
+        "Q",
+        "Y"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "Y",
+        "W"
+      ]
+    ],
+    "start": "Q",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: N -> E. Q -> Y. E -> S. Y -> W.\nStart at N. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "S",
+    "edges": [
+      [
+        "N",
+        "E"
+      ],
+      [
+        "Q",
+        "Y"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "Y",
+        "W"
+      ]
+    ],
+    "start": "N",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> O. Z -> C. O -> M. C -> D.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "C"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> O. Z -> C. O -> M. C -> D.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "C"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: G -> O. Z -> I. O -> M. I -> W.\nStart at Z. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "W",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "I"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "I",
+        "W"
+      ]
+    ],
+    "start": "Z",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0038",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: G -> O. Z -> I. O -> M. I -> W.\nStart at G. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "G",
+        "O"
+      ],
+      [
+        "Z",
+        "I"
+      ],
+      [
+        "O",
+        "M"
+      ],
+      [
+        "I",
+        "W"
+      ]
+    ],
+    "start": "G",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "original",
+    "query_index": 0,
+    "question": "Directed edges: K -> L. O -> Q. L -> U. Q -> D.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "K",
+        "L"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "L",
+        "U"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "original",
+    "query_index": 1,
+    "question": "Directed edges: K -> L. O -> Q. L -> U. Q -> D.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "K",
+        "L"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "L",
+        "U"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "relabeling",
+    "query_index": 0,
+    "question": "Directed edges: X -> L. V -> Y. L -> M. Y -> O.\nStart at X. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "X",
+        "L"
+      ],
+      [
+        "V",
+        "Y"
+      ],
+      [
+        "L",
+        "M"
+      ],
+      [
+        "Y",
+        "O"
+      ]
+    ],
+    "start": "X",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "relabeling",
+    "query_index": 1,
+    "question": "Directed edges: X -> L. V -> Y. L -> M. Y -> O.\nStart at V. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "O",
+    "edges": [
+      [
+        "X",
+        "L"
+      ],
+      [
+        "V",
+        "Y"
+      ],
+      [
+        "L",
+        "M"
+      ],
+      [
+        "Y",
+        "O"
+      ]
+    ],
+    "start": "V",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "path_change",
+    "query_index": 0,
+    "question": "Directed edges: K -> N. O -> Q. N -> U. Q -> D.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "U",
+    "edges": [
+      [
+        "K",
+        "N"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "N",
+        "U"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "path_change",
+    "query_index": 1,
+    "question": "Directed edges: K -> N. O -> Q. N -> U. Q -> D.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "K",
+        "N"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "N",
+        "U"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "answer_change",
+    "query_index": 0,
+    "question": "Directed edges: K -> L. O -> Q. L -> M. Q -> D.\nStart at K. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "M",
+    "edges": [
+      [
+        "K",
+        "L"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "L",
+        "M"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "K",
+    "hops": 2
+  },
+  {
+    "base_id": "validation_0039",
+    "condition": "answer_change",
+    "query_index": 1,
+    "question": "Directed edges: K -> L. O -> Q. L -> M. Q -> D.\nStart at O. Follow exactly 2 directed edges. Which node do you reach?",
+    "answer": "D",
+    "edges": [
+      [
+        "K",
+        "L"
+      ],
+      [
+        "O",
+        "Q"
+      ],
+      [
+        "L",
+        "M"
+      ],
+      [
+        "Q",
+        "D"
+      ]
+    ],
+    "start": "O",
+    "hops": 2
+  }
+]

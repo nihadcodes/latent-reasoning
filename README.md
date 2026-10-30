@@ -75,5 +75,4 @@ Use checkpoint revisions and SHA256 checksums to identify external artifacts.
 Run the file verifier before committing. No GitHub upload has been performed.
 
 ## Attribution and licence
-See THIRD_PARTY_NOTICES.md and LICENSE. Confirm the licence for your research
-code before a public release. Upstream licences remain attached to their files.
+See THIRD_PARTY_NOTICES.md and LICENSE.
